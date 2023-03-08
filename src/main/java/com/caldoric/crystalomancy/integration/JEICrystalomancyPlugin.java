@@ -22,7 +22,5 @@ public class JEICrystalomancyPlugin implements IModPlugin {
     @Override
     public void registerRecipes(IRecipeRegistration registration) {
         IModPlugin.super.registerRecipes(registration);
-
-
     }
 }

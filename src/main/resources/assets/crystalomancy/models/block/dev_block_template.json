@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "crystalomancy:block/dev_block_template"
+  }
+}
