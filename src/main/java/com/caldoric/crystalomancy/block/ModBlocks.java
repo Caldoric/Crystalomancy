@@ -23,6 +23,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEV_BLOCK_TEMPLATE = registerBlock("dev_block_template",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(24f).requiresCorrectToolForDrops()), ModCreativeModeTab.CRYSTALOMANCY_TAB);
+    public static final RegistryObject<Block> TOPAZ_BLOCK = registerBlock("topaz_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
+                    .strength(24f).requiresCorrectToolForDrops()), ModCreativeModeTab.CRYSTALOMANCY_TAB);
+    public static final RegistryObject<Block> OPAL_BLOCK = registerBlock("opal_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
+                    .strength(24f).requiresCorrectToolForDrops()), ModCreativeModeTab.CRYSTALOMANCY_TAB);
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
+                    .strength(24f).requiresCorrectToolForDrops()), ModCreativeModeTab.CRYSTALOMANCY_TAB);
 
 
 

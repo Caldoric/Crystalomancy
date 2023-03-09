@@ -13,6 +13,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> DEV_ITEM_TEMPLATE = ITEMS.register("dev_item_template",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRYSTALOMANCY_TAB)));
+    public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRYSTALOMANCY_TAB)));
+    public static final RegistryObject<Item> OPAL = ITEMS.register("opal",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRYSTALOMANCY_TAB)));
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRYSTALOMANCY_TAB)));
 
 
     public static void register(IEventBus eventBus) {
