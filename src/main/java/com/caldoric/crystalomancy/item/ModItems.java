@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Crystalomancy.MOD_ID);
 
-    public static final RegistryObject<Item> DEV_TEMPLATE = ITEMS.register("dev_template",
+    public static final RegistryObject<Item> DEV_ITEM_TEMPLATE = ITEMS.register("dev_item_template",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRYSTALOMANCY_TAB)));
 
 

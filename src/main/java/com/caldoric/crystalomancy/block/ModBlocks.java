@@ -25,6 +25,8 @@ public class ModBlocks {
                     .strength(24f).requiresCorrectToolForDrops()), ModCreativeModeTab.CRYSTALOMANCY_TAB);
 
 
+
+    // v= Don't fuck with this too much =v
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

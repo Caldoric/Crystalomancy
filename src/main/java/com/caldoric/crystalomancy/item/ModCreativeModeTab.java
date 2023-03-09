@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab CRYSTALOMANCY_TAB = new CreativeModeTab("crystalomancytab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.DEV_TEMPLATE.get());
+            return new ItemStack(ModItems.DEV_ITEM_TEMPLATE.get());
         }
     };
 }
